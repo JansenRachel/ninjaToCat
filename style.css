@@ -1,0 +1,29 @@
+.container{
+    width: 30%;
+    background-color: olive;
+    padding: 3px;
+    margin: auto;
+}
+img{
+    display: block;
+    width: 98.5%;
+    padding: 3px;
+}
+
+/*breakpoints >480, 481-1023, 1024< */
+
+@media only screen and (max-width: 480px){
+    .sm {
+        width: 80%;
+    }
+}
+@media only screen and (min-width: 481px){
+    .med {
+        width: 80%;
+    }
+}
+@media only screen and (min-width: 1025px){
+    .lg {
+        width: 30%;
+    }
+} 
